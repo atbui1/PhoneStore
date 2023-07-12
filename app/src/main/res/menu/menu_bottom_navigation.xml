@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/nav_home"
+        android:enabled="true"
+        android:icon="@drawable/icon_home"
+        android:title="q"/>
+    <item
+        android:id="@+id/nav_message"
+        android:enabled="true"
+        android:icon="@drawable/icon_message"
+        android:title="m"/>
+    <item
+        android:id="@+id/nav_notification"
+        android:enabled="true"
+        android:icon="@drawable/icon_notification"
+        android:title="a"/>
+
+    <item
+        android:id="@+id/nav_cart"
+        android:enabled="true"
+        android:icon="@drawable/icon_cart"
+        android:title="z"/>
+    <item
+        android:id="@+id/nav_personal"
+        android:enabled="true"
+        android:icon="@drawable/icon_person"
+        android:title="x"/>
+</menu>

@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_marginTop="@dimen/dp8"
+    android:background="@color/white"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/dp70">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <!--        container-->
+        <LinearLayout
+            android:layout_weight="1"
+            android:background="@drawable/bg_edt"
+            android:layout_marginBottom="@dimen/dp8"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dp0">
+            <RelativeLayout
+                android:background="#FFEB3B"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/img_avatar"
+                    android:layout_centerVertical="true"
+                    android:src="@drawable/icon_cart"
+                    android:layout_marginHorizontal="@dimen/dp8"
+                    android:layout_width="@dimen/dp50"
+                    android:layout_height="@dimen/dp50"/>
+<!--                content message-->
+                <LinearLayout
+                    android:id="@+id/qaz"
+                    android:orientation="vertical"
+                    android:layout_toEndOf="@id/img_avatar"
+                    android:layout_toStartOf="@id/qwe"
+                    android:gravity="center"
+                    android:layout_marginStart="@dimen/dp8"
+                    android:background="@color/red"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+                    <RelativeLayout
+                        android:layout_weight="1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+                        <TextView
+                            android:id="@+id/txt_name"
+                            android:text="ten user sdasd"
+                            android:background="#8BC34A"
+                            android:layout_alignParentTop="true"
+                            android:paddingLeft="@dimen/dp10"
+                            android:paddingVertical="@dimen/dp5"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"/>
+                    </RelativeLayout>
+                    <RelativeLayout
+                        android:layout_weight="1"
+                        android:gravity="bottom"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+                        <TextView
+                            android:id="@+id/txt_message"
+                            android:text="late message sds"
+                            android:background="#2196F3"
+                            android:paddingLeft="@dimen/dp10"
+                            android:paddingVertical="@dimen/dp5"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"/>
+                    </RelativeLayout>
+                </LinearLayout>
+<!--                time and status message-->
+                <LinearLayout
+                    android:id="@+id/qwe"
+                    android:orientation="vertical"
+                    android:layout_alignParentRight="true"
+                    android:gravity="center"
+                    android:layout_marginStart="@dimen/dp8"
+                    android:background="@color/red"
+                    android:layout_width="@dimen/dp50"
+                    android:layout_height="match_parent">
+                    <RelativeLayout
+                        android:layout_weight="1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+                        <TextView
+                            android:id="@+id/txt_message_time"
+                            android:text="1122"
+                            android:background="#8BC34A"
+                            android:layout_alignParentTop="true"
+                            android:paddingLeft="@dimen/dp10"
+                            android:paddingVertical="@dimen/dp5"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"/>
+                    </RelativeLayout>
+                    <RelativeLayout
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+                        <TextView
+                            android:id="@+id/txt_message_status"
+                            android:text="seen"
+                            android:background="@color/white"
+                            android:layout_alignParentTop="true"
+                            android:paddingLeft="@dimen/dp10"
+                            android:paddingVertical="@dimen/dp5"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"/>
+                    </RelativeLayout>
+                </LinearLayout>
+            </RelativeLayout>
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

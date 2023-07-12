@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">PhoneStore</string>
+    <string name="str_username">Tên đăng nhập</string>
+    <string name="str_password">Mật khẩu</string>
+    <string name="str_login">Đăng nhập</string>
+    <string name="str_forget_pass">Quên mật khẩu</string>
+    <string name="str_no_account">Chưa có tài khoản?</string>
+    <string name="str_register_now">Đăng ký</string>
+    <string name="str_login_fail">Sai số điện thoại hoặc mật khẩu</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
